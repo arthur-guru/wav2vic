@@ -51,7 +51,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <string.h>
 #include <stdlib.h>
 
-#define PROGNAME "WAV2VIC.EXE"
+#define PROGNAME "WAV2VIC"
 #define VERSION  "1.0"
 #define AUTHOR   "arthurguru"
 #define YEAR     "2006"
