@@ -1,0 +1,15 @@
+    0 d$="{home}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}"
+    1 poke36879,152:print"{clr}":poke36878,15
+    2 a$=" o                    JZK                    a                   {CBM-D}N M{CBM-F}          "
+    3 b$=" o                    UZI                    a                    < >           "
+    4 c$="                                                                               "
+    5 goto30
+    7 fory=1to10:poke36876,190:poke36876,0:next
+   10 fort=190to250step3:poke36876,t:poke36876,0:next:printmid$(d$,1,5)c$:return
+   30 printmid$(d$,1,9)tab(6)b$:getv$
+   35 a=a+1:poke7966+a,81:poke7966+a,64:poke7960+a,32:ifa>22thena=0
+   38 ifv$<>" "then60
+   40 printmid$(d$,1,5)tab(7)"y":printmid$(d$,1,6)tab(6)a$:gosub7
+   49 printmid$(d$,1,13)tab(6)"{CBM-U}{CBM-U}{CBM-U}"
+   50 goto30
+   60 goto30

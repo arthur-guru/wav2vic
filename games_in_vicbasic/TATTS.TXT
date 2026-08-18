@@ -1,0 +1,12 @@
+   10 fort=1to8
+   20 fori=1to6
+   30 x(i)=int(rnd(1)*40)+1
+   32 ifx(i)=x(2)thenifx(2)=x(1)then30
+   33 ifx(i)=x(3)thenifx(3)=x(1)orx(2)then30
+   34 ifx(i)=x(4)thenifx(4)=x(1)orx(2)orx(1)then30
+   35 ifx(i)=x(5)thenifx(5)=x(1)orx(2)orx(3)orx(5)then30
+   36 ifx(i)=x(6)thenifx(6)=x(1)orx(2)orx(3)orx(4)orx(5)then30
+   39 printx(i);
+   40 next
+   45 print:print
+   50 next

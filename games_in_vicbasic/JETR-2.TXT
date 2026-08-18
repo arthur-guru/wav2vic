@@ -1,0 +1,99 @@
+    0 poke650,129:poke36869,255:gosub900
+    1 h=155:poke36881,h
+    2 a$="wwwww}wwwww"
+    4 b$="{rght}{rght}{rght}ynoph{rght}{rght}{rght}yt{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}kljdcgiqrsu{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}abccef{rght}{rght}{rght}{rght}v{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{xz|"
+    5 n$="           "
+    6 print"{clr}":poke36869,255
+   10 a=2:ti$="000000":dd=37154:p1=37151:p2=37152:poke36879,10+as
+   15 poke36874,0
+   18 ife=3thene=0
+   20 c$="{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}":goto80
+   30 ifpeek(7815-22)=27thenti$="000000"
+   31 bn=t:gn=a
+   32 ifti$>"000040"then200
+   33 ifti$>"000029"thenpoke36875,252
+   35 ifpeek(8164-22+f)=24thenz=z+5
+   37 ifpeek(7819)<=23andpeek(7819)>11orpeek(7819)<9then200
+   38 print"{rvon}{home}"spc(12)"score:";z:print"{rvon}{home}"ti$
+   39 printleft$(c$,a)spc(t)"     }     "
+   40 pokedd,127:p=peek(p2)and128:j0=-(p=0)
+   41 pokedd,255:p=peek(p1)
+   42 j1=-((pand8)=0):j2=-((pand16)=0):j3=-((pand4)=0):fb=-((pand32)=0)
+   43 ifj1thena=a+1:goto70
+   44 ifj2thent=t-1:goto70
+   45 ifj3thena=a-1:goto70
+   46 ifj0thent=t+1:goto70
+   48 iffbanda>2then169
+   50 getn$:ifn$="z"thent=t-1
+   51 ifn$="x"thent=t+1
+   52 ifn$=";"thena=a-1
+   53 ifn$="/"thena=a+1
+   54 ifn$=" "anda>2then169
+   60 poke36878,9:gosub550:goto80
+   70 poke36878,15:gosub550
+   80 ift<>bnora<>gnthenprint"{clr}"
+   81 print"{rvon}{home}"spc(12)"score:";z:print"{rvon}{home}"ti$
+   85 print"{grn}{home}{down}{down}{down}{down}{down}{down}jjjjjjjj{wht}"
+   86 ifh=155thenforh=155to38step-1:poke36881,h:poke36876,h+100:poke36876,0:nexth
+   89 poke36875,0
+   90 ifa<2thena=2
+   92 ifa>18thena=18
+   94 ift<1thent=0
+   96 ift>9thent=9
+  120 printleft$(c$,a);spc(t)a$:printleft$(c$,a+1)spc(t)b$
+  125 ifm>0then140
+  128 ifpeek(7819)=23then200
+  129 print"{rvon}{home}"ti$
+  130 b=rnd(1)*50:ifb>47thenf=int(rnd(1)*15)+2:dd=1
+  131 ifb>45thenx=int(rnd(1)*40):goto140
+  132 printleft$(c$,a)spc(t)"   ww}ww   "
+  139 goto30
+  140 poke8164+m,30:poke38884+m,3:m=m+1:poke8164+m-2,32:print"{rvon}{home}"ti$:ifm=xthengoto500
+  148 printleft$(c$,a)spc(t)"   ww}ww   "
+  150 ifm>22thenm=0:x=24:dd=0
+  151 ife>2then200
+  160 goto30
+  169 poke36874,200
+  170 k=0:o=0:fori=1to(20-a)/3:poke36875,160-i*3:forii=34to36:poke7794+a*22+t+k+o,ii
+  171 poke36874,0:poke38514+a*22+t+k+o,7
+  181 poke7794+a*22+t+k+o,0:k=k+22:nextii:print"{rvon}{home}"ti$
+  182 o=o-1:ifpeek(8163+m)=0thenpoke36875,230:z=z+5:m=0:poke36875,0:goto30
+  185 nexti
+  190 goto30
+  200 poke36869,240:print"{clr}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}you crashed":t=0
+  201 forzz=1to1000:nextzz:uv=uv+1:ifuv<3thenpoke36869,255:as=as+2:goto10
+  202 print"{down}{down}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}{rght}game over "
+  203 print"{down}{down}{down}{down}{down}  do you want to play  again? (y/n)":clr:poke36878,0
+  204 getj$:ifj$="y"thengoto0
+  205 ifj$<>"n"then204
+  206 goto1500
+  500 fori=8142to7856step-22
+  501 poke36877,153
+  502 poke36878,(i-7856)/22
+  505 pokei+m-1,33:pokei+30719+m,5
+  507 ifpeek(i+m-23)=<29thenpoke36879,25:e=e+1:pokei+m-1,32:poke36879,10+as:z=z-1:goto150
+  508 pokei+m-1,32:nexti
+  510 poke36877,0:poke36878,9
+  515 goto148
+  550 forrr=1to3 :poke36877,130:poke36877,0:forr=1to15:nextr:nextrr:return
+  900 poke36879,153:poke36878,15:fory=1to10
+ 1000 print"{clr}{down}{down}{down}      c ccc ccc   "
+ 1003 print"      c c    c     "
+ 1005 print"      c cc   c     "
+ 1007 print"    c c c    c     "
+ 1009 print"    ccc ccc  c     "
+ 1050 print"{down}{down}{down}cc  c  c c ccc ccc cc"
+ 1053 print"c c cc ccc c   c   c cccc c cc c c c cc  ccccc  cccc c c c c   cc"
+ 1055 print"c c c cc c ccc ccc c c"
+ 1096 forff=1to100:nextff
+ 1100 poke646,y:nexty
+ 1200 return
+ 1500 print"{clr}":nu$="{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}"
+ 1501 nv$=" {CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}  {CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+} {CBM-+} {CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}{$a0}{CBM-+}"
+ 1503 fori=1to100:next
+ 1505 print"{home}"nu$:print"{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}"nu$:fori=1to100:next:print"{home}"nv$
+ 1508 print"{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}"nv$
+ 1510 print"{home}{rght}{rght}{rght}{down}{down}{down}{down}{down}{down}{rvon}bye!bye!"
+ 1518 a=a+1:ifa>15then1530
+ 1520 goto1503
+ 1530 sys64802

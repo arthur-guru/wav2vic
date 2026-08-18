@@ -1,0 +1,9 @@
+    2 a$=" o                    JZI                    a                   {CBM-D}N M{CBM-F}          "
+    3 b$=" o                    UZK                    a                    < >           "
+    4 goto30
+    5 poke36878,15
+    7 fory=1to10:poke36876,190:poke36876,0:next
+   10 fort=190to250step3:poke36876,t:poke36876,0:next:return
+   30 print"{clr}{blk}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}"b$:forr=1to500:next
+   40 print"{clr}{blk}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}{rght}"a$:gosub5
+   50 goto30

@@ -1,0 +1,57 @@
+    5 poke52,28:poke56,28
+   10 data0,0,0,0,0,0,0,0
+   20 data31,31,63,63,31,7,0,0
+   22 data255,255,255,255,255,255,255,31
+   30 data255,255,255,255,255,255,255,255
+   35 data255,255,192,128,255,136,137,255
+   40 data255,255,255,255,255,254,240,128
+   45 data252,248,240,224,192,0,0,0
+   50 data252,255,255,255,255,255,255,254
+   55 data0,0,0,0,0,0,192,240
+   60 data0,255,255,255,255,255,0,0
+   65 data255,255,128,1,255,17,17,255
+   70 data0,0,0,0,1,1,3,15
+   75 data15,51,64,129,129,1,195,255
+   80 data127,255,255,255,255,255,255,255
+   85 data0,0,0,3,7,63,255,255
+   90 data64,64,64,255,255,255,255,255
+  100 data0,0,0,0,252,255,255,255
+  105 data0,255,195,255,255,224,0,0
+  110 data0,255,255,255,252,0,0,0
+  120 data3,255,255,255,3,3,1,0
+  130 data0,0,8,28,60,120,240,240
+  140 data224,224,252,248,224,224,224,240
+  150 data240,112,0,0,0,0,0,0
+  160 data0,0,0,0,0,255,0,0
+  170 data48,96,192,128,255,255,0,0
+  180 data0,0,0,0,0,0,0,1
+  183 data3,3,3,3,255,255,0,0
+  186 data0,0,64,64,127,63,0,0
+  188 data0,0,0,0,240,240,0,0
+  189 data0,0,0,0,224,255,64,64
+  200 data24,24,16,127,60,60,20,75
+  205 data8,8,8,8,8,28,28,28
+  210 data0,0,0,0,0,0,0,0
+  215 data8,8,28,28,28,28,62,62
+  230 data1,1,1,2,2,2,4,4
+  235 data4,8,8,8,16,16,16,32
+  240 data32,32,64,64,64,128,128,128
+  290 fori=7168to7463:readj:pokei,j:next
+  295 poke36869,255
+  300 print"{clr}"
+  310 print"{rght}{blk}wwwww}wwwww"
+  320 print"{rght}{rght}{rght}{rght}ynoph{rght}{rght}{rght}yt{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}kljdcgiqrsu{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}abccef{rght}{rght}{rght}{rght}v{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{xz|"
+  499 poke36869,240
+  500 print"{clr}{wht}":poke36879,15
+  510 ab$="you are in command of a jet-ranger helicopter and your mission is to {rvon}destroy"
+  520 fork=1to77:print"{home}{down}"mid$(ab$,1,k)
+  523 nextk
+  524 forw=1to1000:nextw
+  530 ad$="unfortunately your helicopter has a damaged fuel-tank and you only have enough"
+  540 ae$=" fuel for 40 seconds. you must return to base to refuel"
+  600 fork=1to78:print"{home}{down}{down}{down}{down}{down}"mid$(ad$,1,k):nextk
+  610 fork=1to55:print"{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}"mid$(ae$,1,k):next
+  612 forw=1to1000:nextw
+  618 print" to load other half
+  620 print"{down}{down}{down}{down}"
+  640 load
