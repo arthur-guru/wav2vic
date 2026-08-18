@@ -1,5 +1,5 @@
 WAV2VIC README
-============
+==============
 
 About
 
@@ -7,7 +7,7 @@ About
 
 Compiling 
 
-    * The following used to work back in 2006 with a Visual Studio and GNU gcc C compiler.
+    * The following used to work back in 2006 with the Visual Studio or GNU gcc C compiler.
     * % cc -o wav2vic wav2vic.c
 
 Installing
