@@ -1,0 +1,42 @@
+body 
+{
+  color: #ffffff; 
+  background-color: #00415e;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+table 
+{
+  color: #ffffff; 
+  background-color: #00415e;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+a 
+{
+  color: #ffff00; 
+  text-decoration: none
+}
+a:hover 
+{
+  color: #f0f000;
+  background-color: #dd0000; 
+  text-decoration: underline
+}
+a:visited
+{
+  color: #ffff00;
+  text-decoration: none
+}
+
+pre {
+  font-family: courier new,courier,'lucida grande',sans-serif;
+  font-size: small;
+  line-height: 110%;
+  padding: 6px;
+  background-color: #333;
+  border: 1px solid #006a92;
+}
+
