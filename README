@@ -1,0 +1,39 @@
+WAV2VIC README
+============
+
+About
+
+    * wav2vic - A utility that converts C2N tape data stored in .wav files to Vic-20 data files.
+
+Compiling 
+
+    * The following used to work back in 2006 with a Visual Studio and GNU gcc C compiler.
+    * % cc -o wav2vic wav2vic.c
+
+Installing
+
+    * No installation method has been provided.
+
+Package
+
+    * No packaging method has been provided.
+
+Testing
+
+    * No test harness has been provided.
+
+Running
+
+    * Refer to the main documentation.
+
+Main Documentation
+
+    * You are reading it.
+
+License
+
+    * Refer to the terms and conditions described in the LICENSE file.
+
+
+Enjoy, arthurguru, 2006.
+
